@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 font-family: 'gilroy';
+--body-color: hsl(212, 42%, 15%);
 }
 body {
     font-family: "Poppins", sans-serif;
@@ -20,7 +21,23 @@ body {
 }
 
 
+.card_section
+{
 
+    background-color: var(--body-color);
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: fixed; /* Fixed position to keep the navbar at the top */
+    background-color: var(--color1);
+    padding: 12px 20px;
+    z-index: 1000; /* Set a higher z-index to ensure it's above other content */
+}
 
 .nav-bar .signup-button {
     border-radius: 5px;
@@ -379,19 +396,23 @@ height: 100%;
 
     .left h2
     {
-        font-size: 3.5vw;
+        font-size: 3.5vw;   
         width: 90%;
         margin-top: 5vw;
-        
-      
+        margin-bottom: 4vw;  
     }
     .left p
     {
         font-size: 3.5vw;
         width: 90%;
-        margin-top: 8vw;
+        margin-top: 10vw;
         margin-bottom: 5vw;  
     }
-    
+
+    .left button
+    {
+        margin-top: 4vw;
+    }
+
 }
 
