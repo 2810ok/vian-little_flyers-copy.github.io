@@ -22,18 +22,19 @@
 }
 
 /*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-.card_section {
+body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-
+  background-color: var(--body-color);
   color: var(--white-color);
 }
-.card_section h1
-{
-    color: black;
-    text-align: center;
-}
+
 a {
   text-decoration: none;
 }
@@ -49,8 +50,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
-
+  height: 100vh;
+  
 }
 
 .card__container {
@@ -64,7 +65,7 @@ img {
 }
 
 .card__article {
-  
+  width: 300px; /* Remove after adding swiper js */
   border-radius: 1.25rem;
   overflow: hidden;
 }
@@ -74,10 +75,6 @@ img {
   background-color: var(--first-color-light);
   padding-top: 1.5rem;
   margin-bottom: -.75rem;
-
-  display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .card__data {
@@ -142,7 +139,6 @@ img {
   font-size: 3rem;
   color: var(--second-color);
   display: none;
-
 }
 
 .swiper-button-prev {
@@ -156,7 +152,6 @@ img {
 .swiper-pagination-bullet {
   background-color: hsl(212, 32%, 40%);
   opacity: 1;
-  
 }
 
 .swiper-pagination-bullet-active {

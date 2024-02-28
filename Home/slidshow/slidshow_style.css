@@ -198,7 +198,10 @@ color: orange;
       
     }  
 
-
+.slidshow
+{
+   margin-bottom: 5vw;
+}
     .carousel_caption h2
     {
       font-size: 4vw;

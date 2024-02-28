@@ -6,6 +6,62 @@
     <title>Responsive Navbar</title>
     <link rel="stylesheet" href="history.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        .main_cards
+    {
+       background-color: hsl(212, 42%, 15%);
+    }
+          .card__container_main
+          {
+             display: flex;
+             justify-content: center;
+             flex-wrap: wrap;
+             margin-top: 30px;
+          }
+          .card_main
+          {
+             width: 352px;
+             background-color: aqua;
+             border-radius: 8px;
+             overflow: hidden;
+             box-shadow: 0px 2px 4px rgba(0, 0,0, 0.2);
+             margin: 20px;
+          }
+          
+          .card_main img
+          {
+           width: 100%;
+           height: auto;  
+          }
+          .card_content_main
+          {
+             padding: 16px;
+          }
+          .card_content_main h3
+          {
+             font-size: 28px;
+             margin-bottom: 8px;
+          }
+          
+          .card_content_main p
+          {
+             color: #666;
+             font-size: 15px;
+             line-height: 1.3;
+          }
+          .card_content_main .btn_main
+          {
+             display: inline-block;
+             padding: 8px 16px;
+             background-color: #333;
+             text-decoration: none;
+             border-radius: 4px;
+             margin-top: 16px;
+             color: #fff;
+          }
+          </style>
+
 </head>
 <body >
     <header>
@@ -27,5 +83,46 @@
         </nav>
     </header>
 <hr>
+
+
+
+
+<section class="main_cards">
+    <h1 style="text-align: center; color: white; font-size: 30px;"> course completion</h1>
+    <div class="card__container_main">
+    <div class="card_main">
+    <img src="../bg-main.jpg">
+    <div class="card_content_main">
+    <h3 > cards1 </h3>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque fuga omnis facilis nesciunt eum quasi asperiores, rem, perferendis dolore magnam in provident doloremque ipsam, animi recusandae. Dicta inventore maiores esse!
+       </p>
+       <a href="" class="btn_main">get/check certificate</a>
+    </div>
+    </div>
+    
+    
+    <div class="card_main">
+       <img src="../bg-main.jpg">
+       <div class="card_content_main">
+       <h3 > cards2 </h3>
+       <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque fuga omnis facilis nesciunt eum quasi asperiores, rem, perferendis dolore magnam in provident doloremque ipsam, animi recusandae. Dicta inventore maiores esse!
+          </p>
+          <a href="" class="btn_main">get/check certificate</a>
+       </div>
+       </div>
+       <div class="card_main">
+          <img src="../bg-main.jpg">
+          <div class="card_content_main">
+          <h3 > cards3 </h3>
+          <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque fuga omnis facilis nesciunt eum quasi asperiores, rem, perferendis dolore magnam in provident doloremque ipsam, animi recusandae. Dicta inventore maiores esse!
+             </p>
+             <a href="" class="btn_main">get/check certificate</a>
+          </div>
+          </div>
+    
+         
+    
+     </section>
+
 </body>
 </html>
