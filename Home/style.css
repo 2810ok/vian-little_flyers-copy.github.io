@@ -407,3 +407,7 @@ height: 100%;
 
 }
 
+#bg-cards
+{
+    background: rgba(0, 0, 0, 0) url(../hs1.jpg);  
+}
